@@ -29,6 +29,12 @@ public class Main {
             i++;
         }
         System.out.println(three2[i]);
+        i = 0;
+        while (i < three3.length - 1) {
+            System.out.print(three3[i] + ", ");
+            i++;
+        }
+        System.out.println(three3[i]);
         System.out.println();
 
         System.out.println("task 3"); // task 3 **********************************
@@ -44,6 +50,12 @@ public class Main {
             i--;
         }
         System.out.println(three2[i]);
+        i = three3.length-1;
+        while (i > 0) {
+            System.out.print(three3[i] + ", ");
+            i--;
+        }
+        System.out.println(three3[i]);
         System.out.println();
 
         System.out.println("task 4"); // task 4 **********************************
