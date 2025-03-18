@@ -53,6 +53,7 @@ public class Main {
             i++;
         }
         System.out.println(Arrays.toString(three));
-        System.out.println();
+        System.out.println("End");
+
     }
 }
